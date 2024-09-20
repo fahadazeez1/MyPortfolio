@@ -1267,6 +1267,20 @@ section,
   color: var(--accent-color);
 }
 
+.hero-image-exp {
+  content: url("assets/img/my-hero-bg.jpg");
+}
+
+/* For screens greater than 1200px, change the image */
+@media (max-width: 1200px) {
+  .hero-image-exp {
+      content: url("assets/img/mxwidth.jpg");
+  }
+}
+.ccc{
+  /* color: red; */
+  /* background-image: url("assets/img/pfp.jpg"); */
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
