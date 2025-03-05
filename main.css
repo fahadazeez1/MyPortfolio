@@ -614,10 +614,13 @@ section,
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
+    /* color: red; */
+    margin-left: 182px;
   }
 
   .hero p {
     font-size: 20px;
+    margin-left: 182px;
   }
 }
 
